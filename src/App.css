@@ -21,3 +21,8 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
+
+.city-name {
+  margin-bottom: 20px;
+  color: blue;
+}
