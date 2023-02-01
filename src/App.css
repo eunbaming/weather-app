@@ -15,6 +15,8 @@ body {
 
 .weather-box {
   border: 3px solid #fff;
+  width: 450px;
+  height: 270px;
   padding: 70px;
   background-color: rgba(135, 207, 235, 0.306);
   border-radius: 30px;
@@ -25,4 +27,13 @@ body {
 .city-name {
   margin-bottom: 20px;
   color: blue;
+}
+
+.weather-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-button button {
+  margin-right: 10px;
 }
