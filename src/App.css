@@ -21,11 +21,16 @@ body {
   background-color: rgba(135, 207, 235, 0.306);
   border-radius: 30px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .city-name {
-  margin-bottom: 20px;
+  padding: 20px 0;
+  margin-bottom: 10px;
   color: blue;
 }
 
@@ -36,4 +41,9 @@ body {
 
 .weather-button button {
   margin-right: 10px;
+}
+.weather-button button:hover {
+  background-color: orange;
+  border-color: orange;
+  color: #fff;
 }
