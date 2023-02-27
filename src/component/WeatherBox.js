@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const WeatherBox = ({weather}) => {
   return (
@@ -8,6 +8,6 @@ const WeatherBox = ({weather}) => {
       <h3>{weather?.weather[0].description}</h3>
     </div>
   )
-}
+};
 
-export default WeatherBox
+export default WeatherBox;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Button } from 'react-bootstrap';
 
 const WeatherButton = ({cities, selectedCity, handleCityChange}) => {
@@ -10,6 +10,6 @@ const WeatherButton = ({cities, selectedCity, handleCityChange}) => {
       ))}
     </div>
   )
-}
+};
 
-export default WeatherButton
+export default WeatherButton;
