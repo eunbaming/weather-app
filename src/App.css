@@ -38,6 +38,7 @@ body {
 .weather-button {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .weather-button button {
   margin-right: 10px;
@@ -46,4 +47,16 @@ body {
   background-color: orange;
   border-color: orange;
   color: #fff;
+}
+
+@media screen and (max-width : 800px) {
+  body {
+    background-size: cover;
+  }
+  .weather-box {
+    width: 93%;
+  }
+  .weather-button button {
+    margin-bottom: 10px;
+  }
 }

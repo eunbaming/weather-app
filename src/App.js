@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import WeatherBox from './component/WeatherBox';
 import WeatherButton from './component/WeatherButton';
 import ClipLoader from "react-spinners/ClipLoader";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 
 function App() {
   const [weather, setWeather] = useState(null);
