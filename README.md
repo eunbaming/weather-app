@@ -59,7 +59,7 @@ const getCurrentLocation = () => {
 
 [Mobile ver.]
 
-<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png" width="400"></a>
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221769457-256a3e2e-2d68-4b8f-b33c-cf57bb79b5ec.png" width="400"></a>
 <a href="#"><img src="https://user-images.githubusercontent.com/110072947/221769472-a7923a50-cec5-43ef-9529-15618b890f98.png" width="400"></a>
 
 <br/>
