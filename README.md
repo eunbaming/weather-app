@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Weather 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+React component를 이용한 반응형 쇼핑몰 웹페이지 구축
 
-In the project directory, you can run:
+![Weather-app](https://user-images.githubusercontent.com/110072947/221766642-12b39515-c40b-43a0-b70c-392f2174df93.png)
 
-### `npm start`
++ Demo : https://weather-app-eight-mauve.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 개발 목표
 
-### `npm test`
+실존하는 데이터의 api를 가져와서 현재 위치, 그리고 원하는 도시의 실시간 날씨를 보여주며, React component의 이해를 기반한 웹페이지 구축 및 반응형으로 개발
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
+<br/>
 
-### `npm run build`
+### 사용 기술
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br/>
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Advanced Feature
 
-### `npm run eject`
++ 현재 위치 기반으로 실시간 날씨를 보여주는 ui 개발
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```javascript
+...
+const getCurrentLocation = () => {
+    navigator.geolocation.getCurrentPosition((position) => {
+      let lat = position.coords.latitude;
+      let lng = position.coords.longitude;
+      getWeatherByCurrentLocation(lat, lng);
+    });
+  };
+...
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
++ 각각의 도시를 누를 때마다 데이터를 가지고 올 때 보여지는 로딩스피너 개발
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Weather-app](https://user-images.githubusercontent.com/110072947/221767795-347db06a-1b4b-4028-9062-f7ca056089dd.png)
 
-## Learn More
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
++ Media Query를 이용한 반응형 웹페이지 개발
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Web ver.]
 
-### Code Splitting
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221769043-f42b00ed-e0b8-4dfc-b420-f8e2da167127.png" width="400"></a>
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221769020-daa7e2d1-9342-4920-a8ca-e45a1720476f.png" width="400"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Mobile ver.]
 
-### Analyzing the Bundle Size
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221725942-628b600e-088e-4762-aef6-82dd97fe199c.png" width="400"></a>
+<a href="#"><img src="https://user-images.githubusercontent.com/110072947/221769472-a7923a50-cec5-43ef-9529-15618b890f98.png" width="400"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br/>
+<br/>
 
-### Making a Progressive Web App
+# 개선 사항
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
++ 날씨 데이터를 소수점 아래 두자리수까지만 보여주도록 개선 필요
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
++ 모바일 버전 시 버튼의 간격 개선 필요
