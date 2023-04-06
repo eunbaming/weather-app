@@ -63,10 +63,16 @@ const getCurrentLocation = () => {
 <a href="#"><img src="https://user-images.githubusercontent.com/110072947/221769472-a7923a50-cec5-43ef-9529-15618b890f98.png" width="400"></a>
 
 <br/>
+
++ 에러 핸들링으로 에러가 발생했을 때 에러 메세지를 사용자가 볼 수 있도록 적용
+
+![Weather-app](https://user-images.githubusercontent.com/110072947/230292635-45247f5a-a8ce-409c-bdee-a06a1c36ab97.png)
+
+<br/>
 <br/>
 
 ### 개선 사항
 
 + 날씨 데이터를 소수점 아래 두자리수까지만 보여주도록 개선 필요
 
-+ 에러 핸들링 작동 개선 필요
++ 에러 핸들링 작동 개선 필요 -> 업데이트 완료 (맨 마지막)
