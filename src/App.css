@@ -34,6 +34,18 @@ body {
   color: blue;
 }
 
+/* error render */
+.error-render {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.error-message {
+  width: 80%;
+  text-align: center;
+}
+
 /* weather button */
 .weather-button {
   display: flex;
@@ -49,7 +61,7 @@ body {
   color: #fff;
 }
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width: 800px) {
   body {
     background-size: cover;
   }
