@@ -11,7 +11,6 @@
 
 ### 개발 목표
 
-React component를 이용한 반응형 쇼핑몰 웹페이지 구축
 실존하는 데이터의 api를 가져와서 현재 위치, 그리고 원하는 도시의 실시간 날씨를 보여주며, React component의 이해를 기반한 웹페이지 구축 및 반응형으로 개발
 
 <br/>
@@ -44,7 +43,7 @@ const getCurrentLocation = () => {
 
 <br/>
 
-+ 각각의 도시를 누를 때마다 데이터를 가지고 올 때 보여지는 로딩스피너 개발
++ 각각의 도시를 누를 때마다 데이터를 가지고 올 때 보여지는 로딩스피너 
 
 ![Weather-app](https://user-images.githubusercontent.com/110072947/221767795-347db06a-1b4b-4028-9062-f7ca056089dd.png)
 
