@@ -1,7 +1,6 @@
 # Weather 앱
 
-
-React component를 이용한 반응형 쇼핑몰 웹페이지 구축
+<br/>
 
 ![Weather-app](https://user-images.githubusercontent.com/110072947/221766642-12b39515-c40b-43a0-b70c-392f2174df93.png)
 
@@ -12,6 +11,7 @@ React component를 이용한 반응형 쇼핑몰 웹페이지 구축
 
 ### 개발 목표
 
+React component를 이용한 반응형 쇼핑몰 웹페이지 구축
 실존하는 데이터의 api를 가져와서 현재 위치, 그리고 원하는 도시의 실시간 날씨를 보여주며, React component의 이해를 기반한 웹페이지 구축 및 반응형으로 개발
 
 <br/>
